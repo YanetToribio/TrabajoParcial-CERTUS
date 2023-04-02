@@ -148,14 +148,31 @@
     }
     
     textarea {
-        width: 810px;
-        height: 260px;
+        width: 837px;
+        height: 195px;
     }
     
     input {
         padding: 12px;
         WIDTH: 90%;
         margin-bottom: 12px;
+        border-radius: 10px;
+    }
+    
+    input[type="checkbox"] {
+        display: inline-block;
+        width: 20px;
+    }
+    
+    fieldset {
+        border-radius: 10px;
+        border-width: 3px;
+    }
+    
+    legend {
+        font-size: 1.5em;
+        font-weight: bold;
+        color: #052262;
     }
     /* footer */
     
@@ -194,7 +211,7 @@
         width: 33.3%;
     }
     
-    .copyright {
+    #copyright {
         text-align: center;
         font-size: 1.3em;
     }
