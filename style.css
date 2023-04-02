@@ -1,0 +1,200 @@
+    /*  GENERAL
+============*/
+    
+    body {
+        /*El cuerpo del proyecto*/
+        font-family: 'Ubuntu', sans-serif;
+        /*Tipografia*/
+        margin: 0px;
+        /*sin margen*/
+        text-decoration: none;
+        font-size: 15px;
+    }
+    
+    a {
+        text-decoration: none;
+    }
+    /* Encabezado */
+    
+    header {
+        margin: 0px;
+        padding-top: 30px;
+        padding-bottom: 30px;
+        color: #ffffff;
+        background-color: #0036b3;
+        /*Color de fondo*/
+        /*Altura*/
+    }
+    
+    header>h1 {
+        font-size: 4em;
+        font-family: 'Alkatra', cursive;
+        margin: 0px;
+        text-align: center;
+    }
+    
+    header>h2 {
+        font-size: 2.0em;
+        margin: 0px;
+        text-align: center;
+    }
+    /* Navegación */
+    
+    nav>ul {
+        margin: 0;
+        background-color: #fff200;
+        text-align: center;
+        font-size: 1.3em;
+    }
+    
+    nav>ul>li {
+        display: inline-block;
+        padding: 20px 20px;
+    }
+    
+    nav>ul>li:hover {
+        background-color: #ffffff;
+    }
+    
+    nav>ul>li>a {
+        color: #052262;
+        text-decoration: none;
+    }
+    
+    h3 {
+        text-align: center;
+        color: #052262;
+    }
+    /* Configuracion FLEX-BOX
+================ */
+    
+    .box {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    /* Cuerpo principal
+================ */
+    
+    .product-grid>article {
+        max-width: 275px;
+        /* Se limita el ancho para que sean igual todos los productos*/
+        text-align: center;
+        margin: 4px;
+        border-radius: 15px !important;
+        /*border redondeado de 15 pixeles*/
+        border: 1px solid #0b2143;
+        /*borde de tamaño 1 pixel, tipo solido, color*/
+        padding: 20px 30px;
+        /*padding de tamaño arriba abajo 20 pixeles, a los lados 30 pixeles*/
+        background-color: #fff;
+        /*color de fondo*/
+    }
+    
+    .product-grid>article>figure>img {
+        height: 240px;
+        width: 240px;
+    }
+    
+    .titulo-de-seccion {
+        font-size: 2.0em;
+    }
+    
+    .titulo {
+        font-size: 2.5em;
+    }
+    
+    span {
+        background-color: #d7e2fd;
+        font-style: italic;
+        padding: 4px;
+    }
+    /* Botones */
+    
+    button {
+        margin-top: 10px;
+        background-color: #0036b3;
+        color: #fff;
+        border: none;
+        border-radius: 5px;
+        padding: 10px 20px;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+    }
+    /* fomulario */
+    
+    .formulario>article {
+        width: 50%;
+    }
+    
+    .formulario>article>figure>img {
+        width: 100%;
+        height: auto;
+    }
+    
+    .titulo-formulario {
+        font-size: 1.5em;
+        color: #0036b3;
+        font-family: 'Alkatra', cursive;
+    }
+    
+    label {
+        font-size: 1.5em;
+    }
+    
+    .item-formulario {
+        width: 894px;
+        height: 166px;
+    }
+    
+    textarea {
+        width: 810px;
+        height: 260px;
+    }
+    
+    input {
+        padding: 12px;
+        WIDTH: 90%;
+        margin-bottom: 12px;
+    }
+    /* footer */
+    
+    footer {
+        background-color: #fff200;
+        color: #052262;
+        padding: 20px;
+    }
+    
+    .menu>ul {
+        list-style-type: none;
+        font-style: italic;
+    }
+    
+    .menu>ul>li {
+        padding: 10px;
+        margin: 10px;
+    }
+    
+    .social-icons {
+        display: flex;
+        justify-content: center;
+    }
+    
+    .social-icons a {
+        margin: 0 10px;
+    }
+    
+    .social-icons img {
+        width: 60px;
+        height: 60px;
+        padding-top: 60px;
+    }
+    
+    footer>section>div {
+        width: 33.3%;
+    }
+    
+    .copyright {
+        text-align: center;
+        font-size: 1.3em;
+    }
